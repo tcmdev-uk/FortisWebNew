@@ -1,7 +1,9 @@
 const openFullscreen = () => { 
+   
     let thumbnails = document.querySelectorAll(".websiteGallery");
     let fullscreen = document.querySelector(".fullScreenMode");
     let expanded = document.querySelector(".fullScreenChild");
+
 
     thumbnails.forEach((e) => {
         e.addEventListener("click", () => { 

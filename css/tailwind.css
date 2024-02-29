@@ -1285,10 +1285,6 @@ input:checked + .toggle-bg {
   height: 2.25rem;
 }
 
-.h-\[10\%\] {
-  height: 10%;
-}
-
 .h-\[28vh\] {
   height: 28vh;
 }
@@ -1299,14 +1295,6 @@ input:checked + .toggle-bg {
 
 .h-\[6rem\] {
   height: 6rem;
-}
-
-.h-\[90\%\] {
-  height: 90%;
-}
-
-.h-\[90vh\] {
-  height: 90vh;
 }
 
 .h-auto {
@@ -1363,10 +1351,6 @@ input:checked + .toggle-bg {
 
 .w-52 {
   width: 13rem;
-}
-
-.w-6 {
-  width: 1.5rem;
 }
 
 .w-64 {
@@ -1549,10 +1533,6 @@ input:checked + .toggle-bg {
   gap: 1rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-6 {
   gap: 1.5rem;
 }
@@ -1604,10 +1584,6 @@ input:checked + .toggle-bg {
 
 .overflow-y-hidden {
   overflow-y: hidden;
-}
-
-.whitespace-nowrap {
-  white-space: nowrap;
 }
 
 .rounded {
@@ -1713,11 +1689,6 @@ input:checked + .toggle-bg {
 .bg-dark {
   --tw-bg-opacity: 1;
   background-color: rgb(25 25 25 / var(--tw-bg-opacity));
-}
-
-.bg-darkAlt {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 17 17 / var(--tw-bg-opacity));
 }
 
 .bg-gray-100 {
@@ -1915,6 +1886,10 @@ input:checked + .toggle-bg {
 
 .pt-2 {
   padding-top: 0.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-left {
@@ -2389,14 +2364,6 @@ input:checked + .toggle-bg {
 
   .md\:items-start {
     align-items: flex-start;
-  }
-
-  .md\:items-end {
-    align-items: flex-end;
-  }
-
-  .md\:justify-end {
-    justify-content: flex-end;
   }
 
   .md\:justify-between {

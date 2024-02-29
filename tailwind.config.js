@@ -8,6 +8,9 @@ module.exports = {
   content: [
     "./*.html",
    "./*.js",
+   "./Components/navbar.js",
+   "./Pages/Portfolio/*.html",
+   
     //FLOWBITE
     "./node_modules/flowbite/**/*.js"
  
