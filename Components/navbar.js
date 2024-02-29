@@ -30,10 +30,8 @@ const navbarHTML = `<nav class=" border-gray-200d h-auto dark:bg-transparent fix
     </ul>
   </div>
   </div>
-  </nav>`
+  </nav>`;
 
-let navbarQuery = document.querySelector("#navBar")
+let navbarQuery = document.querySelector("#navBar");
 
-
-navbarQuery.innerHTML  = navbarHTML
-
+navbarQuery.innerHTML = navbarHTML;
