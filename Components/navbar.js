@@ -1,6 +1,6 @@
 const navbarHTML = `<nav class=" border-gray-200d h-auto dark:bg-transparent fixed top-0 w-full z-50">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-  <a href="../Home/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+  <a href="../../index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="../../assets/logo/logo.svg" class="h-6" alt="Flowbite Logo" />
      
   </a>
@@ -19,13 +19,13 @@ const navbarHTML = `<nav class=" border-gray-200d h-auto dark:bg-transparent fix
         <a href="#" class="block py-2 px-3 md:p-0 text-white  bg-mainOrange rounded md:bg-transparent md:text-mainOrange md:dark:text-mainOrange" aria-current="page">Home</a>
       </li>
       <li>
-        <a href="../Home/index.html#Projects" class="block py-2 px-3 md:p-0 rounded text-dark md:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+        <a href="../../index.html#Projects" class="block py-2 px-3 md:p-0 rounded text-dark md:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
       </li>
       <li>
-        <a href="../Home/index.html#Services" class="block py-2 px-3 md:p-0 rounded text-dark md:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:hover:text-blue-700 d:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+        <a href="../../index.html#Services" class="block py-2 px-3 md:p-0 rounded text-dark md:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:hover:text-blue-700 d:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
       </li>
       <li>
-        <a href="../Home/index.html#ContactUs" class="block py-2 px-3 md:p-0 rounded text-dark md:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+        <a href="../../index.html#ContactUs" class="block py-2 px-3 md:p-0 rounded text-dark md:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
       </li>
     </ul>
   </div>

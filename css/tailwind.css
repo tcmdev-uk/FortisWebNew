@@ -1217,6 +1217,10 @@ input:checked + .toggle-bg {
   margin-top: 1.25rem;
 }
 
+.-mr-1 {
+  margin-right: -0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1389,12 +1393,36 @@ input:checked + .toggle-bg {
   max-width: 660px;
 }
 
+.max-w-0 {
+  max-width: 0px;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[41\] {
+  max-width: 41;
+}
+
+.max-w-\[415px\] {
+  max-width: 415px;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
 
 .flex-shrink {
   flex-shrink: 1;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 .-translate-x-full {
@@ -1525,6 +1553,10 @@ input:checked + .toggle-bg {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -1604,6 +1636,10 @@ input:checked + .toggle-bg {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .rounded-e-lg {
@@ -1890,6 +1926,10 @@ input:checked + .toggle-bg {
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-left {
@@ -2276,6 +2316,16 @@ input:checked + .toggle-bg {
     padding: 1.5rem;
   }
 
+  .sm\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .sm\:text-center {
     text-align: center;
   }
@@ -2320,6 +2370,10 @@ input:checked + .toggle-bg {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:grid {
+    display: grid;
   }
 
   .md\:hidden {
@@ -2413,6 +2467,11 @@ input:checked + .toggle-bg {
     font-size: 1rem;
   }
 
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .md\:text-mainOrange {
     --tw-text-opacity: 1;
     color: rgb(240 75 38 / var(--tw-text-opacity));
@@ -2476,6 +2535,16 @@ input:checked + .toggle-bg {
     padding-bottom: 4rem;
   }
 
+  .lg\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .lg\:pr-40 {
     padding-right: 10rem;
   }
@@ -2496,6 +2565,14 @@ input:checked + .toggle-bg {
 }
 
 @media (prefers-color-scheme: dark) {
+  .dark\:block {
+    display: block;
+  }
+
+  .dark\:hidden {
+    display: none;
+  }
+
   .dark\:border-blue-500 {
     --tw-border-opacity: 1;
     border-color: rgb(63 131 248 / var(--tw-border-opacity));
@@ -2560,6 +2637,16 @@ input:checked + .toggle-bg {
 
   .dark\:bg-transparent {
     background-color: transparent;
+  }
+
+  .dark\:bg-gray-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgb(25 25 25 / var(--tw-bg-opacity));
   }
 
   .dark\:bg-opacity-90 {
