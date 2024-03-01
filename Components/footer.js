@@ -1,4 +1,4 @@
-const footerHTML = `<footer class="py-16 px-6 bg-white sm:p-6 dark:bg-black dark:bg-opacity-90">
+const footerHTML = `<footer class="pt-10 px-6 bg-white dark:bg-black dark:bg-opacity-90">
 <div class="mx-auto max-w-screen-xl">
     <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">

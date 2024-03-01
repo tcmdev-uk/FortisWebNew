@@ -48,6 +48,7 @@ let gsapAnimations = () => {
             }, 800);
         })
     }
+    loadInAnimation()
 
 
 }
