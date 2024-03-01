@@ -4,14 +4,13 @@ let gsapAnimations = () => {
     //Hero bricks
     let heroBricks = document.querySelectorAll(".heroSectionBricks")
     window.addEventListener("load", () => { 
-        setTimeout(() => {
-            
+        
         
     heroBricks.forEach(element => {
         gsap.from(element, {right: "0", bottom:"0", top:"0", left:"0", duration:"1", rotate:0, opacity:0})
         setTimeout(() => {
             gsap.to(element, {y:"7", yoyo: true, repeat: -1, duration: 2,})
-        }, 2000);
+      
        element.addEventListener("mouseover", () => { 
         gsap.to(element, {scale: 1.2} )
        })
@@ -35,20 +34,6 @@ let gsapAnimations = () => {
 }, 500);
 })
 
-    let loadInAnimation = () => { 
-        let loadIn = document.querySelector(".loadIn")
-            let logo = document.querySelector(".loadLogo")
-
-            
-
-        window.addEventListener("load", () => { 
-            gsap.to(logo, {scale:1.3})
-            setTimeout(() => {
-                loadIn.classList.add("hidden")
-            }, 800);
-        })
-    }
-    loadInAnimation()
 
 
 }
