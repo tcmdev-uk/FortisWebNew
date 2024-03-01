@@ -11,6 +11,7 @@ module.exports = {
    "./Components/*.js",
    "./Pages/Portfolio/*.html",
    "./Pages/contactus/*.html",
+   "./Pages/.**.html",
    
     //FLOWBITE
     "./node_modules/flowbite/**/*.js"
