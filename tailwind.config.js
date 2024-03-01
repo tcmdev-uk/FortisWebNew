@@ -10,6 +10,7 @@ module.exports = {
    "./*.js",
    "./Components/*.js",
    "./Pages/Portfolio/*.html",
+   "./Pages/contactus/*.html",
    
     //FLOWBITE
     "./node_modules/flowbite/**/*.js"
