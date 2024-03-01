@@ -17,7 +17,7 @@ module.exports = {
  
   ],
 
-  darkMode: "media",
+
   
   theme: {
     colors: { 
