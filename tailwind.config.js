@@ -8,7 +8,7 @@ module.exports = {
   content: [
     "./*.html",
    "./*.js",
-   "./Components/navbar.js",
+   "./Components/*.js",
    "./Pages/Portfolio/*.html",
    
     //FLOWBITE
