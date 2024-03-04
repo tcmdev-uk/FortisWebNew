@@ -16,7 +16,7 @@ const navbarHTML = `<nav class=" border-gray-200d h-auto bg-transparent fixed to
   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
     <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border bg-darkAlt md:bg-transparent rounded-lg text-white md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0    border-gray-700">
       <li>
-        <a href="../../index.html" class="block py-2 px-3 md:p-0 text-white  bg-mainOrange rounded md:bg-transparent md:text-mainOrange aria-current="page">Home</a>
+        <a href="../../index.html" class="block py-2 px-3 md:p-0 text-white  rounded md:bg-transparent  aria-current="page">Home</a>
       </li>
       <li>
         <a href="../../index.html#Projects" class="block py-2 px-3 md:p-0 rounded md:text-white   md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700">Projects</a>
