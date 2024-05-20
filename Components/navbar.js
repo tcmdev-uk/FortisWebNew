@@ -1,5 +1,5 @@
 const navbarHTML = `<nav class="navbarchild border-gray-200d h-auto bg-transparent fixed top-0 w-full z-50">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 px-10">
   <a href="../../index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="../../assets/logo/logo.svg" class="h-6" alt="Flowbite Logo" />
      

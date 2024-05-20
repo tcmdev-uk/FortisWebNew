@@ -18,7 +18,9 @@ let gsapAnimations = () => {
        element.addEventListener("mouseout", () => { 
         gsap.to(element, {scale: 1})
        })
+    
     });
+
 
     let makeBigger = document.querySelectorAll(".makeBigger");
 
@@ -32,6 +34,9 @@ let gsapAnimations = () => {
         });
     });
 }, 500);
+
+
+
 })
 
 
@@ -61,5 +66,19 @@ const servicesSection = () => {
         })
     });
 }
+
+const fadeOnView = () => { 
+    let fadeElements = document.querySelectorAll(".goUp");
+    
+    fadeElements.forEach(element => {
+        let elementPosition = element.getBoundingClientRect().top;
+        let windowHeight = window.innerHeight;
+        
+        if (elementPosition < windowHeight) {
+            gsap.from(element, { opacity: 0, duration: 1 });
+        }
+    });
+}
+fadeOnView()
 servicesSection()
 
