@@ -18,9 +18,7 @@ const navbarHTML = `<nav class="navbarchild border-gray-200d h-auto bg-transpare
       <li>
         <a href="../../index.html" class="block py-2 px-3 md:p-0 text-white  rounded md:bg-transparent  aria-current="page">Home</a>
       </li>
-      <li>
-        <a href="../../index.html#Projects" class="block py-2 px-3 md:p-0 rounded md:text-white   md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700">Projects</a>
-      </li>
+    
       <li>
         <a href="../../index.html#Services" class="block py-2 px-3 md:p-0 rounded md:text-white   hover:text-blue-500 text-white hover:bg-gray-700 md:hover:bg-transparent border-gray-700">Services</a>
       </li>
