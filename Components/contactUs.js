@@ -1,5 +1,5 @@
 const contactHTML = ` <section class="bg-dark py-14">
-<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+<div class="py-8 lg:py-16 px-[5%] mx-auto max-w-screen-md">
     <h2 class=" text-4xl tracking-tight font-extrabold text-center text-white">Contact Us</h2>
     <p class="mb-8 lg:mb-16 font-light text-center text-gray-500  sm:text-xl"> Get in touch with us today! </p>
     <form id="ContactUs" action="https://formsubmit.co/69583632d9470d12c84f3225ccad3466" method="post" class="space-y-8">
