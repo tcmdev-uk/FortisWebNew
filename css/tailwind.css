@@ -1147,6 +1147,30 @@ input:checked + .toggle-bg {
   top: -9rem;
 }
 
+.top-\[20px\] {
+  top: 20px;
+}
+
+.top-\[\] {
+  top: ;
+}
+
+.top-\[-40px\] {
+  top: -40px;
+}
+
+.top-\[-45px\] {
+  top: -45px;
+}
+
+.top-\[-46px\] {
+  top: -46px;
+}
+
+.top-\[-48px\] {
+  top: -48px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1382,6 +1406,10 @@ input:checked + .toggle-bg {
   height: 30vh;
 }
 
+.h-\[60vh\] {
+  height: 60vh;
+}
+
 .h-\[6rem\] {
   height: 6rem;
 }
@@ -1398,6 +1426,30 @@ input:checked + .toggle-bg {
   height: 100vh;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[800px\] {
+  height: 800px;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -1410,12 +1462,12 @@ input:checked + .toggle-bg {
   width: 2.5rem;
 }
 
-.w-2 {
-  width: 0.5rem;
+.w-14 {
+  width: 3.5rem;
 }
 
-.w-20 {
-  width: 5rem;
+.w-2 {
+  width: 0.5rem;
 }
 
 .w-3 {
@@ -1478,12 +1530,8 @@ input:checked + .toggle-bg {
   width: 1px;
 }
 
-.w-12 {
-  width: 3rem;
-}
-
-.w-14 {
-  width: 3.5rem;
+.w-20 {
+  width: 5rem;
 }
 
 .min-w-\[200px\] {
@@ -1616,6 +1664,11 @@ input:checked + .toggle-bg {
 
 .rotate-\[30deg\] {
   --tw-rotate: 30deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-45 {
+  --tw-rotate: 45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2018,6 +2071,21 @@ input:checked + .toggle-bg {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-\[\#e5dbc7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 219 199 / var(--tw-bg-opacity));
+}
+
+.bg-darkOrange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(193 49 31 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-0 {
   --tw-bg-opacity: 0;
 }
@@ -2185,6 +2253,16 @@ input:checked + .toggle-bg {
   padding-bottom: 2.25rem;
 }
 
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -2337,6 +2415,10 @@ input:checked + .toggle-bg {
   line-height: 1.25;
 }
 
+.leading-10 {
+  line-height: 2.5rem;
+}
+
 .tracking-tight {
   letter-spacing: -0.025em;
 }
@@ -2423,20 +2505,12 @@ input:checked + .toggle-bg {
   opacity: 1;
 }
 
-.opacity-90 {
-  opacity: 0.9;
-}
-
-.opacity-20 {
-  opacity: 0.2;
-}
-
-.opacity-30 {
-  opacity: 0.3;
-}
-
 .opacity-40 {
   opacity: 0.4;
+}
+
+.opacity-90 {
+  opacity: 0.9;
 }
 
 .shadow {
@@ -2463,6 +2537,12 @@ input:checked + .toggle-bg {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .outline {
   outline-style: solid;
 }
@@ -2479,6 +2559,11 @@ input:checked + .toggle-bg {
 
 .drop-shadow-xl {
   --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hue-rotate-30 {
+  --tw-hue-rotate: hue-rotate(30deg);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -2877,8 +2962,8 @@ input:checked + .toggle-bg {
     height: 100%;
   }
 
-  .md\:w-20 {
-    width: 5rem;
+  .md\:w-24 {
+    width: 6rem;
   }
 
   .md\:w-32 {
@@ -2899,30 +2984,6 @@ input:checked + .toggle-bg {
 
   .md\:w-auto {
     width: auto;
-  }
-
-  .md\:w-16 {
-    width: 4rem;
-  }
-
-  .md\:w-14 {
-    width: 3.5rem;
-  }
-
-  .md\:w-12 {
-    width: 3rem;
-  }
-
-  .md\:w-8 {
-    width: 2rem;
-  }
-
-  .md\:w-80 {
-    width: 20rem;
-  }
-
-  .md\:w-24 {
-    width: 6rem;
   }
 
   .md\:grid-cols-2 {
