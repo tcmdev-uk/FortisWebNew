@@ -82,3 +82,13 @@ const fadeOnView = () => {
 fadeOnView()
 servicesSection()
 
+const reviews = () => { 
+    const apiLink = "https://mybusiness.googleapis.com/v4/accounts/12015337765867877705/reviews"
+  
+    fetch(apiLink)
+    .then(Response => Response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error("error:", error))
+  } 
+  reviews()
+
