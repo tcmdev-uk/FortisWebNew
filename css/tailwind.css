@@ -1175,6 +1175,26 @@ input:checked + .toggle-bg {
   top: 50%;
 }
 
+.right-\[-14px\] {
+  right: -14px;
+}
+
+.top-\[-\] {
+  top: -;
+}
+
+.top-\[-5px\] {
+  top: -5px;
+}
+
+.top-\[-2px\] {
+  top: -2px;
+}
+
+.top-\[-1px\] {
+  top: -1px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1197,6 +1217,10 @@ input:checked + .toggle-bg {
 
 .z-\[60\] {
   z-index: 60;
+}
+
+.z-\[12\] {
+  z-index: 12;
 }
 
 .-my-9 {
@@ -1600,6 +1624,10 @@ input:checked + .toggle-bg {
 
 .w-52 {
   width: 13rem;
+}
+
+.w-2\/12 {
+  width: 16.666667%;
 }
 
 .min-w-\[100\%\] {
