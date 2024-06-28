@@ -6,7 +6,7 @@ const navbarHTML = `
           <div class="flex flex-col"> 
           <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" href="../../../index.html"> Home </a>
           <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" href="../../../Pages/generalPages/about.html"> About </a>
-          <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" href="../../../Pages/blog/hub.html"> Learning & Resources </a>
+          <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" href="../../../Pages/Blog/hub.html"> Learning & Resources </a>
           <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" href="../../../Pages/generalPages/contact.html"> Contact</a>
           <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" href="../../../Pages/Portfolio/ourWork.html"> Our Work </a>
         
