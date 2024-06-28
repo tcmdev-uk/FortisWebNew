@@ -25,25 +25,25 @@ const contactHTML = `<section class="relative contactWrapper  overflow-hidden bg
         </div>
 
         <div class="lg:col-span-4">
-            <form action="https://submit-form.com/SfeU5kHvF" method="POST" class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+            <form action="https://submit-form.com/b8PC4Vzr8" method="POST" class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                 <div>
                     <label for="" class="text-base font-normal text-white"> Your name </label>
                     <div class="mt-2">
-                        <input type="text" name="" id="" placeholder="Enter your full name" class="block w-full px-5 py-4 text-base font-normal text-black placeholder-gray-500 bg-white border border-gray-400 rounded-md focus:border-white focus:ring-white focus:ring-1" />
+                        <input type="text" name="Your name" id="" placeholder="Enter your full name" class="block w-full px-5 py-4 text-base font-normal text-black placeholder-gray-500 bg-white border border-gray-400 rounded-md focus:border-white focus:ring-white focus:ring-1" />
                     </div>
                 </div>
 
                 <div>
                     <label for="" class="text-base font-normal text-white"> Your email </label>
                     <div class="mt-2">
-                        <input type="email" name="" id="" placeholder="Enter your email address" class="block w-full px-5 py-4 text-base font-normal text-black placeholder-gray-500 bg-white border border-gray-400 rounded-md focus:border-white focus:ring-white focus:ring-1" />
+                        <input type="email" name="Your Email" id="" placeholder="Enter your email address" class="block w-full px-5 py-4 text-base font-normal text-black placeholder-gray-500 bg-white border border-gray-400 rounded-md focus:border-white focus:ring-white focus:ring-1" />
                     </div>
                 </div>
 
                 <div class="sm:col-span-2">
                     <label for="" class="text-base font-normal text-white"> What type of trade business are you? </label>
                     <div class="mt-2">
-                        <select name="" id="" class="block w-full py-4 pl-5 pr-10 text-base font-normal text-black placeholder-gray-500 bg-white border border-gray-400 rounded-md focus:border-white focus:ring-white focus:ring-1">
+                        <select name="Options" id="" class="block w-full py-4 pl-5 pr-10 text-base font-normal text-black placeholder-gray-500 bg-white border border-gray-400 rounded-md focus:border-white focus:ring-white focus:ring-1">
                             <option value=""> Type of trade </option>
                             <option value="">Electrician  </option>
                             <option value=""> Plumber </option>
@@ -68,8 +68,6 @@ const contactHTML = `<section class="relative contactWrapper  overflow-hidden bg
                         <textarea name="" id="" placeholder="Submit here" rows="4" class="block w-full px-5 py-4 text-base font-normal text-black placeholder-gray-500 bg-white border border-gray-400 rounded-md resize-y focus:border-white focus:ring-white focus:ring-1"></textarea>
                     </div>
                 </div>
-
-                <div class="g-recaptcha" data-sitekey="6LcE5QEqAAAAABljQowXK_CN_rKNCjbkDqFjTFjE"></div>
 
                 <div class="sm:col-span-2">
                     <button type="submit" class= "inline-flex
