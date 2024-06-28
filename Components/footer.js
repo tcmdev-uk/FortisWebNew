@@ -3,7 +3,7 @@ const footerHTML = `<footer class="py-10 px-6 bg-black bg-opacity-90">
     <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
             <a href="https://fortiswebmasters.com" class="flex items-center">
-                <img src="../../assets/logo/logo.svg" class="mr-3 h-6" alt="FlowBite Logo" />
+                <img src="../../../assets/logo/logo.svg" class="mr-3 h-6" alt="FlowBite Logo" />
                
             </a>
         </div>
@@ -11,8 +11,11 @@ const footerHTML = `<footer class="py-10 px-6 bg-black bg-opacity-90">
             <div>
                 <h2 class="mb-6 text-sm font-semibold  uppercase text-white">Resources</h2>
                 <ul class=" text-white">
-                    <li class="mb-4">
-                        <a href="../../index.html" class="hover:underline"> Home </a> 
+                    <li class="mb-1 flex flex-col gap-2">
+                        <a href="../../../index.html" class="hover:underline"> Home </a> 
+                        <a href="../../../Pages/Blog/hub.html" class="hover:underline"> Learning Blog </a> 
+                        <a href="../../../Pages/Portfolio/ourWork.html" class="hover:underline"> Case studies </a> 
+                        <a href="../../../Pages/generalPages/about.html" class="hover:underline"> About Us </a> 
                     </li>
                     <li>
             
@@ -33,13 +36,15 @@ const footerHTML = `<footer class="py-10 px-6 bg-black bg-opacity-90">
                 <h2 class="mb-6 text-sm font-semibold  uppercase text-white">Legal</h2>
                 <ul class=" text-white">
                     <li class="mb-4">
-                        <a href="#" class="hover:underline">Privacy Policy</a>
+                        <a href="../../../Pages/generalPages/privacy.html" class="hover:underline">Privacy Policy</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                        <a href="../../../Pages/generalPages/tac.html" class="hover:underline">Terms &amp; Conditions</a>
                     </li>
                 </ul>
             </div>
+
+            
         </div>
     </div>
     <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />

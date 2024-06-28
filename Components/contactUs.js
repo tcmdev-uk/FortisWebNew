@@ -1,22 +1,100 @@
-const contactHTML = ` <section class="bg-dark py-14">
-<div class="py-8 lg:py-16 px-[5%] mx-auto max-w-screen-md">
-    <h2 class=" text-4xl tracking-tight font-extrabold text-center text-white">Contact Us</h2>
-    <p class="mb-8 lg:mb-16 font-light text-center text-gray-500  sm:text-xl"> Get in touch with us today! </p>
-    <form id="ContactUs" action="https://formsubmit.co/69583632d9470d12c84f3225ccad3466" method="post" class="space-y-8">
-        <div>
-            <label for="email" class="block mb-2 text-sm font-medium  text-gray-300">Your email</label>
-            <input name="email" type="email" id="email" class="  text-gray-900 text-sm rounded-lg  block w-full p-2.5 bg-gray-700  placeholder-gray-400 focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="email@address.com" required>
+const contactHTML = `<section class="relative contactWrapper  overflow-hidden bg-mainOrange py-24">
+    <img src="../../../assets/GeneralIcons/Castle.svg" alt="" class="absolute right-0 opacity-50 bottom-[-40px] md:w-[400px] w-[250px]">
+<div class="absolute top-0 left-0 -translate-x-48 -translate-y-36">
+   
+</div>
+
+
+
+<div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div class="">
+        <h2 class="text-3xl font-bold font-poppins uppercase text-white sm:text-4xl lg:text-5xl xl:text-6xl"> Lets build your trade business </h2>
+        <p class="mt-1 text-base font-normal text-gray-100 sm:text-lg">We'd love a chat!</p>
+    </div>
+
+    <div class="grid grid-cols-1 mt-12 sm:mt-16 lg:mt-20 lg:grid-cols-6 lg:gap-x-24 gap-y-12">
+        <div class="space-y-8 lg:space-y-12 lg:col-span-2 lg:order-last">
+            
+
+            <div>
+                <h3 class="text-xl font-normal text-white sm:text-2xl">
+                    <a href="#" title="" class="text-[1.2rem]"> info@fortiswebmasters.com</a>
+                </h3>
+                <p class="mt-1 text-base font-normal text-gray-100">Email us directly if you have any question or queries? </p>
+            </div>
         </div>
-        <div>
-            <label for="subject" class="block mb-2 text-sm font-medium  text-gray-300">Subject</label>
-            <input name="subject" type="text" id="subject" class="block p-3 w-full text-sm t  rounded-lg border focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="Let us know how we can help you" required>
+
+        <div class="lg:col-span-4">
+            <form action="https://submit-form.com/SfeU5kHvF" method="POST" class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                <div>
+                    <label for="" class="text-base font-normal text-white"> Your name </label>
+                    <div class="mt-2">
+                        <input type="text" name="" id="" placeholder="Enter your full name" class="block w-full px-5 py-4 text-base font-normal text-black placeholder-gray-500 bg-white border border-gray-400 rounded-md focus:border-white focus:ring-white focus:ring-1" />
+                    </div>
+                </div>
+
+                <div>
+                    <label for="" class="text-base font-normal text-white"> Your email </label>
+                    <div class="mt-2">
+                        <input type="email" name="" id="" placeholder="Enter your email address" class="block w-full px-5 py-4 text-base font-normal text-black placeholder-gray-500 bg-white border border-gray-400 rounded-md focus:border-white focus:ring-white focus:ring-1" />
+                    </div>
+                </div>
+
+                <div class="sm:col-span-2">
+                    <label for="" class="text-base font-normal text-white"> What type of trade business are you? </label>
+                    <div class="mt-2">
+                        <select name="" id="" class="block w-full py-4 pl-5 pr-10 text-base font-normal text-black placeholder-gray-500 bg-white border border-gray-400 rounded-md focus:border-white focus:ring-white focus:ring-1">
+                            <option value=""> Type of trade </option>
+                            <option value="">Electrician  </option>
+                            <option value=""> Plumber </option>
+                            <option value=""> Landscaper </option>
+                            <option value=""> Roofing </option>
+                            <option value=""> Home improvement </option>
+                            <option value=""> Carpentery </option>
+                            <option value=""> Other </option>
+                        </select>
+                    </div>
+                </div>
+
+                
+
+                
+                  
+
+
+                <div class="sm:col-span-2">
+                    <label for="" class="text-base font-normal text-white"> What are you looking for? </label>
+                    <div class="mt-2">
+                        <textarea name="" id="" placeholder="Submit here" rows="4" class="block w-full px-5 py-4 text-base font-normal text-black placeholder-gray-500 bg-white border border-gray-400 rounded-md resize-y focus:border-white focus:ring-white focus:ring-1"></textarea>
+                    </div>
+                </div>
+
+                <div class="g-recaptcha" data-sitekey="6LcE5QEqAAAAABljQowXK_CN_rKNCjbkDqFjTFjE"></div>
+
+                <div class="sm:col-span-2">
+                    <button type="submit" class= "inline-flex
+                    items-center
+                    justify-center
+                    px-10
+                    py-2
+                    font-sans
+                    text-base
+                    font-semibold
+                    leading-6
+                    transition-all
+                    duration-200
+                    border-2 border-transparent
+                    rounded-full
+                    sm:leading-8
+                    bg-gray-800
+                    sm:text-lg
+                    text-white
+                    hover:bg-opacity-90
+                    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-secondary ">Send Message</button>
+                </div>
+            </form>
         </div>
-        <div class="sm:col-span-2">
-            <label for="message" class="block mb-2 text-sm font-medium  text-gray-400">Your message</label>
-            <textarea name="content" id="message" rows="6" class="block p-2.5 w-full text-sm  rounded-lg shadow-sm border  focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
-        </div>
-        <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-mainOrange sm:w-fit hover:bg-darkOrange focus:ring-4 focus:outline-none focus:ring-primary-300 hover:bg-primary-700 focus:ring-primary-800">Send message</button>
-    </form>
+    </div>
 </div>
 </section>`;
 

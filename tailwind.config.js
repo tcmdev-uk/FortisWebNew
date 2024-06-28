@@ -6,16 +6,12 @@ module.exports = {
 
 
   content: [
-    "./*.html",
-   "./*.js",
-   "./Components/*.js",
-   "./Pages/Portfolio/*.html",
-   "./Pages/contactus/*.html",
-   "./Pages/.**.html",
-   
-    //FLOWBITE
+    "./index.html",
+    "./Pages/**/*.{html,js}",
+    "./Pages/**/**/*.{html,js}",
+    "./components/*.js",
+    "./app.js",
     "./node_modules/flowbite/**/*.js"
- 
   ],
 
 
