@@ -44,14 +44,14 @@ const contactHTML = `<section class="relative contactWrapper  overflow-hidden bg
                     <label for="" class="text-base font-normal text-white"> What type of trade business are you? </label>
                     <div class="mt-2">
                         <select name="Options" id="" class="block w-full py-4 pl-5 pr-10 text-base font-normal text-black placeholder-gray-500 bg-white border border-gray-400 rounded-md focus:border-white focus:ring-white focus:ring-1">
-                            <option value=""> Type of trade </option>
-                            <option value="">Electrician  </option>
-                            <option value=""> Plumber </option>
-                            <option value=""> Landscaper </option>
-                            <option value=""> Roofing </option>
-                            <option value=""> Home improvement </option>
-                            <option value=""> Carpentery </option>
-                            <option value=""> Other </option>
+                            <option value="Not answered"> Type of trade </option>
+                            <option value="Electrician">Electrician  </option>
+                            <option value="Plumber"> Plumber </option>
+                            <option value="Landscaper"> Landscaper </option>
+                            <option value="Roofer"> Roofer </option>
+                            <option value="Home improvement"> Home improvement </option>
+                            <option value="Carpentry"> Carpentery </option>
+                            <option value="Other"> Other </option>
                         </select>
                     </div>
                 </div>
