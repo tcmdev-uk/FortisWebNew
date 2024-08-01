@@ -2,4 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'moderniz';
+    src: url('../assets/Fonts/moderniz.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'night';
+    src: url('../assets/Fonts/Night\ Shift\ -\ Demo.ttf') format('truetype'),
+         url('../assets/Fonts/Night\ Shift\ -\ Demo.otf') format('opentype'),
+         url('../assets/Fonts/Night\ Shift\ -\ Demo.woff') format('woff'),
+         url('../assets/Fonts/Night\ Shift\ -\ Demo.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'peanut';
+    src: url('../assets/Fonts/PEANUT\ BUTTER.ttf') format('truetype'),
+         url('../assets/Fonts/PEANUT\ BUTTER.otf') format('opentype'),
+         url('../assets/Fonts/PEANUT\ BUTTER.woff') format('woff'),
+         url('../assets/Fonts/PEANUT\ BUTTER.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'super';
+    src: url('../assets/Fonts/Super\ Squad.ttf') format('truetype'),
+         url('../assets/Fonts/Super\ Squad.otf') format('opentype'),
+         url('../assets/Fonts/Super\ Squad.woff') format('woff'),
+         url('../assets/Fonts/Super\ Squad.woff2') format('woff2');
+}
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+}

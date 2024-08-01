@@ -1,67 +1,59 @@
-const footerHTML = `<footer class="py-10 px-6 bg-black bg-opacity-90">
-<div class="mx-auto max-w-screen-xl">
-    <div class="md:flex md:justify-between">
-        <div class="mb-6 md:mb-0">
-            <a href="https://fortiswebmasters.com" class="flex items-center">
-                <img src="../../../assets/logo/logo.svg" class="mr-3 h-6" alt="FlowBite Logo" />
-               
-            </a>
-        </div>
-        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-                <h2 class="mb-6 text-sm font-semibold  uppercase text-white">Resources</h2>
-                <ul class=" text-white">
-                    <li class="mb-1 flex flex-col gap-2">
-                        <a href="../../../index.html" class="hover:underline"> Home </a> 
-                        <a href="../../../Pages/Blog/hub.html" class="hover:underline"> Learning Blog </a> 
-                        <a href="../../../Pages/Portfolio/ourWork.html" class="hover:underline"> Case studies </a> 
-                        <a href="../../../Pages/generalPages/about.html" class="hover:underline"> About Us </a> 
-                    </li>
-                    <li>
-            
-                    </li>
-                </ul>
+const footerHTML = `<footer class="py-12 sm:py-16 bg-gray-900">
+    <div class="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
+        <div class="grid items-center grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-3">
+            <div class="md:order-1">
+                <img class="w-auto h-8" src="../assets/logo/logo.svg" alt="" />
             </div>
-            <div>
-                <h2 class="mb-6 text-sm font-semibold  uppercase text-white">Follow us</h2>
-                <ul class=" text-white">
-                    <li class="mb-4">
-                        <a href="https://www.facebook.com/fortiswebmasters/" target="_blank" class="hover:underline ">Facebook</a>
-                    </li>
+
+            <div class="md:order-3">
+                <ul class="flex items-center justify-end space-x-6">
                     <li>
-                    
-                </ul>
-            </div>
-            <div>
-                <h2 class="mb-6 text-sm font-semibold  uppercase text-white">Legal</h2>
-                <ul class=" text-white">
-                    <li class="mb-4">
-                        <a href="../../../Pages/generalPages/privacy.html" class="hover:underline">Privacy Policy</a>
+                        <a href="#" title="" target="_blank" rel="noopener" class="inline-flex transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary">
+                            <span class="sr-only"> Twitter </span>
+                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"
+                                ></path>
+                            </svg>
+                        </a>
                     </li>
-                    <li>
-                        <a href="../../../Pages/generalPages/tac.html" class="hover:underline">Terms &amp; Conditions</a>
-                    </li>
+
+                 
+
                 </ul>
             </div>
 
-            
+            <div class="col-span-2 md:col-span-1 md:order-2">
+                <ul class="flex items-center justify-center sm:justify-between md:justify-center space-x-9 lg:space-x-16">
+                    <li>
+                        <a href="#" title="" class="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" title="" class="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100">
+                            Contact
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" title="" class="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100">
+                            Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" title="" class="font-sans text-sm whitespace-nowrap font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100">
+                            Our Work
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-    <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
-    <div class="sm:flex sm:items-center sm:justify-between">
-        <span class="text-sm  sm:text-center text-gray-400">© 2024 <a href="https://fortiswebmasters.com" class="hover:underline">Fortis Webmasters</a>. All Rights Reserved.
-        </span>
-        <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-            <a href="https://www.facebook.com/fortiswebmasters/" target="_blank" class="text-gray-500 hover:text-white">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
-            </a>
-          
-         
-           
-        </div>
-    </div>
-</div>
-</footer>`;
+</footer>
+`;
 
 let footerQuery = document.querySelector("#footer");
 footerQuery.innerHTML = footerHTML;

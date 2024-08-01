@@ -1,10 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-  const colors = require("tailwindcss/colors")
 module.exports = {
-
-
-
   content: [
     "./index.html",
     "./Pages/**/*.{html,js}",
@@ -13,45 +9,34 @@ module.exports = {
     "./app.js",
     "./node_modules/flowbite/**/*.js"
   ],
-
-
-  
   theme: {
     colors: { 
-      mainOrange: "#F04B26",
+      mainBlue: "#28ddc3",
       lightOrange: "#F04B26",
+      background: "#edf5ff",
       dark: "#191919",
       darkAlt: "#111111",
       white: "#FFFFFF",
-      darkOrange: "#C1311F",
+      darkBlue: "#22aa93",
       grey:"#2c2c2c",
       nextGen:"#4b7d3e"
-    
     },
-
-  screens: {
-    "sm" : "660px",
-    "md" : "660px",
-    "lg" : "1000px",
-
-
-  },
-  
+    screens: {
+      "sm" : "400px",
+      "md" : "660px",
+      "lg" : "1000px",
+    },
     fontFamily: { 
-  poppins: ["Poppins", "sans-serif"],
+      Custom: ["moderniz", "sans-serif"],
+      Poppins: ["Poppins", "sans-serif"], 
+      Peanut: ["peanut", "sans-serif"],
+      Super: ["super", "sans-serif"],
+      Night: ["night", "sans-serif"]
     },
-
-    extend: { 
-scale: { 
-
-"102": '1.02',
-"300": '3'
-}
-    },
+    "300": '3'
   },
   plugins: [
-require("flowbite/plugin")
-
-  ],
-}
+    require("flowbite/plugin")
+  ]
+};
 

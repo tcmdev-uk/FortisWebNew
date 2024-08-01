@@ -5,6 +5,7 @@ loadingQuery.innerHTML = loadingHTML;
 
 
 let loadingChild = document.querySelector(".loadingChild")
+loadingChild.classList.add("hidden")
 
 const logic = () => { 
 window.addEventListener("load", () => { 
@@ -14,4 +15,3 @@ window.addEventListener("load", () => {
 }
    
 )}
-logic()
